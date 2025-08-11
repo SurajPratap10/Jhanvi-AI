@@ -12,7 +12,10 @@
 
 Jhanvi is a cutting-edge voice assistant built with modern web technologies, featuring real-time voice recognition, intelligent intent detection, and powerful automation capabilities. From playing your favorite music to managing emails and making calls, Jhanvi transforms how you interact with the web.
 
-## ✨ Key Features
+## ✨ WorkFlow and Demo
+![Alt text](https://drive.google.com/uc?export=view&id=1u6FuSzIIc1rzXHbd3LJbEDRU_OvgVa5H)
+![Alt text](https://drive.google.com/uc?export=view&id=1shbVAs3bgTRM9dRRsuhVjC6qNfDAGEGe)
+![Alt text](https://drive.google.com/uc?export=view&id=1LpbHlXBu6mdRGikqGYpNkz_uuMFiwHmR)
 
 ### 🎵 **Smart Music & Media Control**
 - **Direct YouTube Playback**: "play Despacito song" → Instantly plays with autoplay
