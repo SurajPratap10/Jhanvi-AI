@@ -17,6 +17,9 @@ Jhanvi is a cutting-edge voice assistant built with modern web technologies, fea
 ![Alt text](https://drive.google.com/uc?export=view&id=1shbVAs3bgTRM9dRRsuhVjC6qNfDAGEGe)
 ![Alt text](https://drive.google.com/uc?export=view&id=1LpbHlXBu6mdRGikqGYpNkz_uuMFiwHmR)
 
+
+## ✨ Key Features
+
 ### 🎵 **Smart Music & Media Control**
 - **Direct YouTube Playback**: "play Despacito song" → Instantly plays with autoplay
 - **Intelligent Song Search**: Advanced pattern matching for artist + song combinations  
