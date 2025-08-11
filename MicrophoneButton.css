@@ -1,0 +1,181 @@
+.microphone-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.microphone-button {
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.microphone-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+}
+
+.microphone-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.microphone-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.mic-icon {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button states */
+.microphone-button.listening {
+  background: linear-gradient(135deg, #10b981, #34d399);
+  animation: listeningPulse 2s ease-in-out infinite;
+}
+
+.microphone-button.speaking {
+  background: linear-gradient(135deg, #3b82f6, #60a5fa);
+  animation: speakingGlow 2s ease-in-out infinite alternate;
+}
+
+.microphone-button.processing {
+  background: linear-gradient(135deg, #f59e0b, #fbbf24);
+  animation: processingRotate 2s linear infinite;
+}
+
+/* Pulse rings for listening state */
+.pulse-rings {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.pulse-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border: 3px solid rgba(16, 185, 129, 0.6);
+  border-radius: 50%;
+  animation: pulse-ring 2s ease-out infinite;
+}
+
+.pulse-ring:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.pulse-ring:nth-child(2) {
+  animation-delay: 0.7s;
+}
+
+.pulse-ring:nth-child(3) {
+  animation-delay: 1.4s;
+}
+
+.button-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #6b7280;
+  text-align: center;
+  min-height: 20px;
+  transition: color 0.3s ease;
+}
+
+.microphone-button.listening + .button-label {
+  color: #10b981;
+  font-weight: 600;
+}
+
+.microphone-button.speaking + .button-label {
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.microphone-button.processing + .button-label {
+  color: #f59e0b;
+  font-weight: 600;
+}
+
+/* Animations */
+@keyframes listeningPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 30px rgba(16, 185, 129, 0.3);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(16, 185, 129, 0.5);
+  }
+}
+
+@keyframes speakingGlow {
+  from {
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+  }
+  to {
+    box-shadow: 0 20px 50px rgba(59, 130, 246, 0.6);
+  }
+}
+
+@keyframes processingRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2);
+    opacity: 0;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .microphone-button {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .mic-icon svg {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .pulse-ring {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .button-label {
+    font-size: 0.85rem;
+  }
+} 
