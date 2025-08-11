@@ -6,7 +6,7 @@
 [![Vapi](https://img.shields.io/badge/Vapi-Voice%20AI-purple.svg)](https://vapi.ai/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> **A sophisticated AI-powered voice assistant that brings seamless automation to your digital life. Meet Jhanvi - your personal agent for voice-controlled browsing, music playback, communication, and smart automation.**
+> **A sophisticated AI-powered voice assistant that brings seamless automation to your digital life. Meet Jhanvi - your personal conversational agent for voice-controlled browsing, music playback, communication, and smart automation.**
 
 ## 🌟 Overview
 
