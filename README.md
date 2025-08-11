@@ -458,6 +458,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 *Bringing the future of voice interaction to the present*
 
-[📺 Demo Video](DEMO_LINK) • [🚀 Live Demo](LIVE_DEMO_LINK) • [📚 Documentation](DOCS_LINK)
-
 </div> 
