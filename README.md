@@ -12,8 +12,14 @@
 
 Jhanvi is a cutting-edge voice assistant built with modern web technologies, featuring real-time voice recognition, intelligent intent detection, and powerful automation capabilities. From playing your favorite music to managing emails and making calls, Jhanvi transforms how you interact with the web.
 
-## ✨ WorkFlow and Demo
+## 🏗️ System Architecture
+
+The diagram below shows how voice commands flow through the system, from speech recognition to automation execution and user feedback.
+
 ![Alt text](https://drive.google.com/uc?export=view&id=1u6FuSzIIc1rzXHbd3LJbEDRU_OvgVa5H)
+
+## ✨ Demo
+
 ![Alt text](https://drive.google.com/uc?export=view&id=1shbVAs3bgTRM9dRRsuhVjC6qNfDAGEGe)
 ![Alt text](https://drive.google.com/uc?export=view&id=1LpbHlXBu6mdRGikqGYpNkz_uuMFiwHmR)
 
@@ -270,10 +276,6 @@ cd client && npm start
 "google JavaScript documentation"      # Direct Google search
 "find Python courses"                  # Educational content
 ```
-
-## 🏗️ System Architecture
-
-The diagram above shows how voice commands flow through the system, from speech recognition to automation execution and user feedback.
 
 ## 🎨 Feature Highlights
 
