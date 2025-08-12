@@ -21,7 +21,7 @@ The diagram below shows how voice commands flow through the system, from speech 
 ## ✨ Demo
 
 ![Alt text](https://drive.google.com/uc?export=view&id=1shbVAs3bgTRM9dRRsuhVjC6qNfDAGEGe)
-![Alt text](https://drive.google.com/uc?export=view&id=1LpbHlXBu6mdRGikqGYpNkz_uuMFiwHmR)
+![Alt text](https://drive.google.com/uc?export=view&id=1nEU9MmWVS_2fixvOZw_-9lJ57_aVtine)
 
 
 ## ✨ Key Features
