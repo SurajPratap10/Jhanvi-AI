@@ -109,6 +109,7 @@ The diagram below shows how voice commands flow through the system, from speech 
 - **Vapi Web SDK** - Real-time voice recognition and synthesis
 - **CSS3 Animations** - Beautiful visual effects and transitions
 - **Advanced State Management** - Complex automation state handling
+- **Three.js** - Animated particle systems and 3D backgrounds (WebGL-powered)
 
 ### **Backend** 
 - **Node.js + Express** - RESTful API server
