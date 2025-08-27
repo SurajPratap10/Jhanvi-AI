@@ -23,7 +23,7 @@ const VapiAgent = () => {
   const connectionCheckRef = useRef(null);
   const lastActivityRef = useRef(Date.now());
 
-  const VAPI_TOKEN = '1abd3f76-8831-4f5c-9e05-f1890f4fa164';
+  const VAPI_TOKEN = '';
   
   // Auto scroll to bottom when new messages arrive
   useEffect(() => {
